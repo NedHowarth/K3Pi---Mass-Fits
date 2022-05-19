@@ -209,9 +209,9 @@ def error_plot(bin_counts,bin_centres,yvals,ax2):
     ax2.grid()
 
     return residual
-#creating axis' for plots with pulls in palnell below
+#creating axis' for plots with pulls in panel below
 def pannel_plot_set():
-    #plot dimentions
+    #plot dimensions
     left = 0.1
     width = 0.8
     plt.figure(figsize= (16,12))
